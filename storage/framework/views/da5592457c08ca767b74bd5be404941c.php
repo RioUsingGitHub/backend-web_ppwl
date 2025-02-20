@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Hai Satrio</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    </head>
+    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
+        <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
+            <div class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
+                <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
+
+                    <main class="mt-6">
+                        <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
+                            
+                            <h1 style="color: #000000">Welcome</h1>
+                            
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<?php /**PATH D:\laragon\www\PPWL1\backend-web\resources\views/welcome.blade.php ENDPATH**/ ?>
